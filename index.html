@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Calculator
+    </title>
+    <style>
+        body{
+            background-color: rgba(0, 0, 0, 0.686);
+        }
+         #btn:hover{
+            background-color: black;
+            color: white;
+         }
+         .main{
+            margin:100px 550px 100px 550px;
+            width:240px;
+            border-radius: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            padding:15px;
+            background-color:gray;
+            transition:0.3s;
+         }
+         #btn{
+            width:55PX;
+            height:53px;
+            border-radius: 50%;
+             border:0;
+         }
+         #digital{
+            width:100%;
+            margin-bottom:10px;
+            padding: 7PX;
+         }
+         h1{
+            text-align: center;
+            color: white;
+         }
+         .main:hover{
+            box-shadow:10px 10px 60px;
+         }
+    </style>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="main">
+        <input type="text" id="digital">
+        <div class="mainbutton">
+            <button id="btn" style="background-color: crimson;">C</button>
+            <button id="btn">AC</button>
+            <button id="btn">/</button>
+            <div class="buttons">
+                <button id="btn">9</button>
+                <button id="btn">8</button>
+                <button id="btn">7</button>
+                <button id="btn">x</button>
+            </div>
+            <div class="buttons">
+                <button id="btn">6</button>
+                <button id="btn">5</button>
+                <button id="btn">4</button>
+                <button id="btn">-</button>
+            </div>
+            <div class="buttons">
+                <button id="btn">3</button>
+                <button id="btn">2</button>
+                <button id="btn">1</button>
+                <button id="btn">+</button>
+            </div>
+            <div class="buttons">
+                <button id="btn">.</button>
+                <button id="btn">0</button>
+                <button id="btn">%</button>
+                <button id="btn">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
